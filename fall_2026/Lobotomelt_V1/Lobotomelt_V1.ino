@@ -1,12 +1,16 @@
 //Lobotomelt_V1
-//Basic Meltybrain tank drive software. Standard tank drive function, main program switches to this when controller sends command. All other modules are temp s26 ones for now
+//Basic Meltybrain tank drive software
+//Main program switches to standard tank drive when the controller sends a command
+//Other modules temporarily use spring 2026 versions
 
+//Initializing the program
 void setup() {
-  // put your setup code here, to run once:
+  //Setup code runs once on startup
 
 }
 
+//Running the main program
 void loop() {
-  // put your main code here, to run repeatedly:
+  //Main code runs repeatedly
 
 }
