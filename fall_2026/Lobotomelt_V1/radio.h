@@ -6,11 +6,11 @@
 
 class receiver {
   public:
-  static inline uint16_t throttle;
-  static inline uint16_t fb_axis;
-  static inline uint16_t lr_axis;
-  static inline uint16_t angle;
-  static inline uint8_t quality; //Signal quality percentage
+  static inline int16_t throttle;
+  static inline int16_t fb_axis;
+  static inline int16_t lr_axis;
+  static inline int16_t angle;
+  static inline int8_t quality; //Signal quality percentage
 
   static inline CRSFforArduino* crsf;
   static inline unsigned long last_receive_time;
