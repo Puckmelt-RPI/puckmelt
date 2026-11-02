@@ -18,6 +18,8 @@ class receiver {
 
   static void init(); //Initializes & begins the receiver
 
+  static float axisPercent(int value); //Converts a controller axis to -100 through 100 percent
+
   //Callbacks
   static void onReceive(serialReceiverLayer::rcChannels_t *rcChannels); //Updates received channels
   static void onLinkStatisticsUpdate(serialReceiverLayer::link_statistics_t linkStatistics); //Updates signal quality & checks for signal loss
